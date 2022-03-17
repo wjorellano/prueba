@@ -1,0 +1,234 @@
+.menu{
+    position: absolute;
+    width: 459px;
+    height: 670px;
+    left: 0px;
+    top: 0px;
+    background: #1E213A;
+}
+.section{
+    position: absolute;
+    width: 892px;
+    height: 670px;
+    left: 459px;
+    top: 0px;
+    background: #100E1D;
+}
+.btn-c{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 703px;
+    top: 42px;
+
+    background: #E7E7EB;
+    border-radius: 54px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-f{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 755px;
+    top: 42px;
+    background: #585676;
+    border-radius: 54px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    }
+
+.card{
+    position: absolute;
+    width: 328px;
+    height: 204px;
+    left: 613px;
+    top: 457px;
+
+    background: #1E213A;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 17px;
+    /* left: 806px;
+    top: 981px; */
+    top: 641px;
+    margin: auto;
+    /* border: 1px solid red; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A09FB1;
+}
+.btn-search{
+    position: absolute;
+    width: 161px;
+    height: 40px;
+    left: 46px;
+    top: 42px;
+    border: none;
+    color: white;
+    background: #6E707A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-gps{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 373px;
+    top: 42px;
+    border: none;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* .icon-gps{
+    
+} */
+.clima-icon{
+    position: absolute;
+    width: 202px;
+    height: 134px;
+    left: 129px;
+    top: 191px;
+    border: 1px solid red;
+
+    /* background: url(IsoRainSwrsDay.png); */
+}
+.card-info{
+    position: absolute;
+    width: 192px;
+    height: 149px;
+    left: 129px;
+    top: 412px;
+    border: 1px solid red;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 144px;
+    line-height: 169px;
+    /* identical to box height */
+    color: #E7E7EB;
+}
+
+.cloud-1{
+    border: 1px solid red;
+    position: absolute;
+    width: 248px;
+    height: 183px;
+    left: -111px;
+    top: 266px;
+}
+.cloud-2{
+    border: 1px solid red;
+    position: absolute;
+    width: 203px;
+    height: 150px;
+    left: -89px;
+    top: 103px;
+
+}
+.cloud-3{
+    border: 1px solid red;
+    position: absolute;
+    width: 147px;
+    height: 109px;
+    left: 323px;
+    top: 370px;
+
+}
+.cloud-4{
+    border: 1px solid red;
+    position: absolute;
+    width: 203px;
+    height: 150px;
+    left: 336px;
+    top: 116px;
+
+}
+
+#btn-menu{
+    display:none;
+}
+.container-menu{
+    position: absolute;
+    background-color: #1E213A;
+    /* background-color: red; */
+    width: 459px;
+    height: 670px;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 460px;
+    /* background-color: red; */
+    position: relative;
+    transition: all 500ms ease;
+    height: 590px;
+    top: 80px;
+    /* border: 1px solid lightsalmon; */
+    
+}
+.cont-menu .info-menu{
+    transform: rotateY(20%);
+    /* border: 1px solid orange; */
+    width: 460px;
+}
+.cont-menu .info-menu li{
+    /* border: 1px solid white; */
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 18px;
+    width: 75%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* border: 1px solid white; */
+    margin: 0.5em;
+    margin-left: 47px;
+    margin-top: 20px;
+    transition: all 400ms ease;
+    /* identical to box height */
+
+
+color: #E7E7EB;
+}
+.cont-menu .info-menu li:hover{
+    border: 1px solid #616475;
+
+}
+.form{
+    /* border: 1px solid red; */
+    /* width: 400px; */
+    width: 350px;
+    height: 48px;
+    margin-left: 39px;
+}
+.input-search{
+    background-color: #1E213A;
+    border: gray 1px solid gray;
+    color: white
+}
+.container-menu label{
+    position: absolute;
+    right: 22px;
+    top: 10px;
+    
+    color: white;
+}
