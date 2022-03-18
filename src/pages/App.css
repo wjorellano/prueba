@@ -1,0 +1,153 @@
+.container-menu{
+    position: absolute;
+    background-color: #1E213A;
+    width: 459px;
+    height: 670px;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    transition: all 500ms ease;
+    height: 590px;
+    top: 80px;
+    transition: all 500ms ease;
+    transform: translateX(-9%);
+    
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0);
+}
+.cont-menu .info-menu{
+    transform: rotateY(20%);
+    width: 460px;
+}
+.cont-menu .info-menu li{
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 18px;
+    width: 75%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0.5em;
+    margin-left: 47px;
+    margin-top: 20px;
+    transition: all 400ms ease;
+    color: #E7E7EB;
+}
+.cont-menu .info-menu li:hover{
+    border: 1px solid #616475;
+
+}
+.form{
+    width: 350px;
+    height: 48px;
+    margin-left: 39px;
+}
+.input-search{
+    background-color: #1E213A;
+    border: gray 1px solid gray;
+    color: white
+}
+.container-menu label{
+    position: absolute;
+    right: 22px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.content-card{
+    position:absolute;
+    width: 80%;
+    height: 150px;
+    top: 140px;
+    left: 92px;
+}
+.card .card-body p{
+    font-size: 13px;
+}
+.img-tiempo{
+    width: 100%;
+    text-align: center;
+}
+.temperature{
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    margin-top: 4px;
+}
+h5{
+    padding: 4px;
+}
+.section-today{
+    color:white;
+    position: absolute;
+    width: 80%;
+    left: 82px;
+    top: 324px;
+    height: 300px;
+}
+.container-tarjeta{
+    width: 100%;
+    height: 100%;
+}
+.tarjeta-left-one{
+    float: left;
+    width: 45%;
+    height: 120px;
+    left: 613px;
+    top: 457px;
+    background: #1E213A;
+}
+.tarjeta-right-one{
+    position: absolute;
+    width: 45%;
+    height: 120px;
+    left: 382px;
+    top: 38px;
+    background: #1E213A;
+}
+.tarjeta-left-two{
+    position: absolute;
+    width: 45%;
+    height: 109px;
+    left: 0px;
+    top: 178px;
+    background: #1E213A;
+}
+.tarjeta-right-two{
+    position: absolute;
+    width: 45%;
+    height: 109px;
+    left: 382px;
+    top: 178px;
+    background: #1E213A;
+}
+
+.tarjeta-text{
+    text-align: center;
+    padding: 2px;
+    color: #E7E7EB;
+}
+.tarjeta-subt{
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}

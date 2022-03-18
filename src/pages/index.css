@@ -156,7 +156,6 @@
     top: 103px;
     color: gray;
     font-size: 100px;
-
 }
 .cloud-3{
     position: absolute;
@@ -166,8 +165,6 @@
     top: 370px;
     color: gray;
     font-size: 90px;
-
-
 }
 .cloud-4{
     position: absolute;
@@ -177,7 +174,6 @@
     top: 116px;
     color: gray;
     font-size: 100px;
-
 }
 
 #btn-menu{
@@ -336,7 +332,7 @@ h5{
     width: 100%;
     text-align: center;
 }
-
+/* 
 @media screen and (max-width: 768px){
     .content{
         width: 100%;
@@ -415,8 +411,8 @@ h5{
         left: 270px;
         top: 130px;
         /* border: 1px solid  red; */
-        margin: auto;
-    }
+        /* margin: auto; */
+    /* }
     .card-info{
         position: absolute;
         width: 250px;
@@ -424,7 +420,7 @@ h5{
         left: 270px;
         top: 410px;
         /* border: 1px solid  red; */
-        margin: auto;
+        /* margin: auto;
 
     }
     .container-menu{
@@ -448,4 +444,4 @@ h5{
         width: 94%;
         height: 48px;
     }
-}
+}   */
