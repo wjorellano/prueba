@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Card = (props) => {
+ const Card = (props) => {
      return(
          <div className="col">
             <div className='card card-first'>
@@ -17,12 +17,14 @@ export const Card = (props) => {
      )
 };
 
+export default Card;
 
-export const CardToday = (props) => {
-     return(
-            <div className="card">
-                <div className='card-body'>
-                </div>
-            </div>
-     )
-};
+
+// export const CardToday = (props) => {
+//      return(
+//             <div className="card">
+//                 <div className='card-body'>
+//                 </div>
+//             </div>
+//      )
+// };

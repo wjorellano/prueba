@@ -6,7 +6,7 @@ import h from '../icon/h.svg';
 import t from '../icon/t.svg';
 import lc from '../icon/lc.svg';
 import sl from '../icon/sl.svg';
-import { Card } from '../components/Card';
+import Card  from '../components/Card';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -73,8 +73,6 @@ const Home = () => {
                                 </div>
                             </form>
                             <div className='info-menu'>
-                                {/* {climas.map(clima => (
-                                ))} */}
                                 <li>Barcelona</li>
                                 <li>London</li>
                                 <li>Colombia</li>
@@ -114,15 +112,11 @@ const Home = () => {
                    <button type='buttom' className='btn-f'>°F</button> 
                 </div>
                 <div className="content-card row">
-                    {/* { climas.map(clima => (
-                        <Card key={clima.code} day={clima.day} date={clima.date}/>
-                    ))} */}
                     <Card day="Tomorrow" img={s} grado="16°c  11°c" />
                     <Card day="Sun," date="7 jun" img={h} grado="16°c  11°c"/>
                     <Card day="Mon," date="8 jun" img={t} grado="16°c  11°c"/>
                     <Card day="Tue," date="9 jun" img={lc} grado="16°c  11°c"/>
                     <Card day="Wen," date="10 jun" img={sl} grado="16°c  11°c"/>
-
                 </div>
                 <div className='section-today'>
                     <div>
