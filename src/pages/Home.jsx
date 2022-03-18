@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react'
+import React from 'react'
 import './index.css'
 import iconCloud from '../icon/s.svg';
 import s from '../icon/s.svg';
@@ -10,25 +10,25 @@ import { Card } from '../components/Card';
 import Footer from '../components/Footer';
 
 const Home = () => {
-    const [climas, setClimas] = useState([]);
-    const [search, setSearch] = useState('');
-    const searchInput = useRef(null);
+    // const [climas, setClimas] = useState([]);
+    // const [search, setSearch] = useState('');
+    // const searchInput = useRef(null);
 
-    const peticion = () => {
-                fetch(`https://yahoo-weather5.p.rapidapi.com/weather?location=london&format=json&u=f`, {
-            "headers": {
-                "x-rapidapi-host": "yahoo-weather5.p.rapidapi.com",
-                "x-rapidapi-key": "a6e643bf43msh51df313b5e262f0p13af35jsna552ea7d632a"
-            }
-        })
-        .then(res => res.json())
-        .then(data => {
-            console.log(data);
-            setClimas(data.forecasts);
-        })
-        .catch(err => console.log(err));
+    // const peticion = () => {
+    //             fetch(`https://yahoo-weather5.p.rapidapi.com/weather?location=london&format=json&u=f`, {
+    //         "headers": {
+    //             "x-rapidapi-host": "yahoo-weather5.p.rapidapi.com",
+    //             "x-rapidapi-key": "a6e643bf43msh51df313b5e262f0p13af35jsna552ea7d632a"
+    //         }
+    //     })
+    //     .then(res => res.json())
+    //     .then(data => {
+    //         console.log(data);
+    //         setClimas(data.forecasts);
+    //     })
+    //     .catch(err => console.log(err));
 
-    }
+    // }
 
     
     // const queryData = (e) => {
@@ -42,14 +42,14 @@ const Home = () => {
     //     setSearch('')
     // }
     
-    useEffect(() => {
-        peticion();
+    // useEffect(() => {
+    //     peticion();
 
-    }, [])
+    // }, [])
 
-    const handleSearch = (event) => {
-        setSearch(searchInput.current.value);
-    }
+    // const handleSearch = (event) => {
+    //     setSearch(searchInput.current.value);
+    // }
 
     // const filteredCity = useMemo(() =>
     //         climas.filter(() => {
