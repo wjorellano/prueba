@@ -51,10 +51,10 @@ const Home = () => {
         setSearch(searchInput.current.value);
     }
 
-    const filteredCity = useMemo(() =>
-            climas.filter(() => {
-            return clima => clima.city.toLowerCase().includes(search.toLowerCase());
-        }), [search, climas]);
+    // const filteredCity = useMemo(() =>
+    //         climas.filter(() => {
+    //         return clima => clima.city.toLowerCase().includes(search.toLowerCase());
+    //     }), [search, climas]);
     
     return(
         <div className='container-fluid content'> 
@@ -66,7 +66,7 @@ const Home = () => {
                         <div className="cont-menu">
                             <form  className="row form" id='search-submit'>
                                 <div className="col col-md-9 col-sm-10">
-                                <input type="text" value={search} ref={searchInput} onChange={handleSearch} name="search" className='form-control input-search' placeholder='Search location' />
+                                <input type="text" name="search" className='form-control input-search' placeholder='Search location' />
                                 </div>
                                 <div className="col col-md-1 col-sm-1">
                                 <button type='submit' className='btn btn-primary'>Search</button>
