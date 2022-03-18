@@ -38,7 +38,7 @@ const Home = () => {
     //         console.log('Esta vacio');
     //         return
     //     }
-    //     e.target.reset();
+    //     e.tarjeta.reset();
     //     setSearch('')
     // }
     
@@ -121,22 +121,22 @@ const Home = () => {
                 <div className='section-today'>
                     <div>
                         <h5> Today`s Hightlights</h5>
-                        <div container-target>
-                            <div className="target-left-one">
-                                <p className='target-text'>Wind status</p>
-                                <p className='target-subt'>7mph</p>
+                        <div className="container-tarjeta">
+                            <div className="tarjeta-left-one">
+                                <p className='tarjeta-text'>Wind status</p>
+                                <p className='tarjeta-subt'>7mph</p>
                             </div>
-                            <div className="target-right-one">
-                                <p className='target-text'>Humidity</p>
-                                <p className='target-subt'>84%</p>
+                            <div className="tarjeta-right-one">
+                                <p className='tarjeta-text'>Humidity</p>
+                                <p className='tarjeta-subt'>84%</p>
                             </div>
-                            <div className="target-left-two">
-                                <p className='target-text'>Visibility</p>
-                                <p className='target-subt'>6,4 miles</p>
+                            <div className="tarjeta-left-two">
+                                <p className='tarjeta-text'>Visibility</p>
+                                <p className='tarjeta-subt'>6,4 miles</p>
                             </div>
-                            <div className="target-right-two">
-                                <p className='target-text '>Air presure</p>
-                                <p className='target-subt'>998 mb</p>
+                            <div className="tarjeta-right-two">
+                                <p className='tarjeta-text '>Air presure</p>
+                                <p className='tarjeta-subt'>998 mb</p>
                             </div>
                         </div>
                     </div>
